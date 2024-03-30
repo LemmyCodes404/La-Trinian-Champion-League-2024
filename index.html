@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>La Trinian Champion Leagues</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/[2024] LTCL NAV LOGO TRANSPARENT SMALL.png"></a>
+            <div class="nav__links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="Game Rules.html">GAME RULES</a></li>
+                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSc9eItNz7TxtCHZbMYqV1ugSzGEh7LDXLDsQqf7zSlVscyhjQ/viewform">REGISTER</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    <div class="text__box">
+        <h1>La Trinians Champions League</h1>
+        <p>"Surpassing the Limits Together"</p>
+        <p>Contact us at: <br> https://www.facebook.com/LTCLesports</p>
+        <a href="" class="hero__btn">Watch Trailer</a>
+    </div>
+
+    </section>
+
+    <!---------rules--------->
+    <section class="rules">
+        <h1>Rules and Guidelines</h1>
+        <p>If rules are broken, it will lead to disqualification</p>
+
+        <div class="row">
+            <div class="rules-col">
+                <h3>No usage of Third Party Apps</h3>
+                <p>Any type of exploitation will result in a disqualification of the member/whole team</p>
+            </div>
+            <div class="rules-col">
+                <h3>Trash Talking is NOT Tolerated</h3>
+                <p>Any forms of offensive gesture to teamates and rivals will result in penalty points to the whole team. Be respectful.</p>
+            </div>
+            <div class="rules-col">
+                <h3>Missing Activities are NOT allowed</h3>
+                <p>Please finish your Missing Activities before joining LTCL. Students with missing activities shall pass their activities before joining</p>
+            </div>
+        </div>
+        <div class="row__2">
+            <div class="rules-col">
+                <h3>No Account Sharing</h3>
+                <p>Sharing to a person of higher rank than the rank intended will have a punishment judeged by the Marshals and Supervisors</p>
+            </div>
+            <div class="rules-col">
+                <h3>Must be an LTA student from Grade 6 or Above</h3>
+                <p>This is to ensure fair play to all participants.</p>
+            </div>
+            <div class="rules-col">
+                <h3>Must have a Discord Account</h3>
+                <p>Before joining, make sure that you have a discord account. Students under the age of 13 shall have their guardian create their Discord Account.</p>
+            </div>
+        </div>
+    </section>
+
+<!-----brackets---->
+
+    <section class="brackets">
+        <h1>Brackets</h1>
+        <p>Here are the teams that will be participatin in these years LTCL!</p>
+
+        <div class="row">
+            <div class="brackets-col">
+                <img src="images/8BALLPOOL BRACKETS.png">
+                <div class="layer">
+                    <h3>8BALL</h3>
+                </div>
+            </div><div class="brackets-col">
+                <img src="images/MOBILE LEGENDS BRACKETS.png">
+                <div class="layer">
+                    <h3>MOBILE LEGENDS</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row__2">
+            <div class="brackets-col">
+                <img src="images/CODM BRACKETS.png">
+                <div class="layer">
+                    <h3>CODM</h3>
+                </div>
+            </div><div class="brackets-col">
+                <img src="images/VALORANT BRACKETS.png">
+                <div class="layer">
+                    <h3>VALORANT</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+<!-------Games------->
+
+<section class="games">
+    <div class="games-content">
+        <h1>Our Games</h1>
+        <p>Here are the games that are featured in this years LTCL!</p>
+
+        <div class="row">
+            <div class="games-col">
+                <img src="images/8BALLPOOL ICON.png">
+            </div>
+            <div class="games-col">
+                <img src="images/MOBILE LEGENDS ICON.png">
+            </div>
+            <div class="games-col">
+                <img src="images/CODM ICON.png">
+            </div>
+            <div class="games-col">
+                <img src="images/VALORANT ICON.png">
+            </div>
+        </div>
+
+    </div>
+
+    
+
+</section>
+
+<!-------Call to Action-------->
+
+<section class="register">
+    <button type="button" onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSc9eItNz7TxtCHZbMYqV1ugSzGEh7LDXLDsQqf7zSlVscyhjQ/viewform'">Register Now!</button>
+</section>
+<section class="footer">
+    <h4>For further question contact us at our Facebook Page</h4>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+    </div>
+</section>
+
+
+<!--------JavaScript for Toggle Menu---------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
